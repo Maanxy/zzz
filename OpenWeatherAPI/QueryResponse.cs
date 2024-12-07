@@ -21,6 +21,7 @@ namespace OpenWeatherAPI
 		public string Name { get; }
 		public int Cod { get; }
 		public int Timezone { get; }
+		public Weather Weather { get; }
 
 		public QueryResponse(string jsonResponse)
 		{
